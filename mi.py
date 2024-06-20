@@ -61,5 +61,3 @@ def generate_content():
 
     return jsonify(images_and_questions)
 
-if __name__ == "__main__":
-    app.run(debug=True)
